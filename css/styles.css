@@ -2,7 +2,19 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, Verdana, Lucida Sans Unicode;
-	background-color: #DCDCDC;
+	background-color: #F8F8FF;
+}
+
+
+.cabecalho {
+	height: 160px;
+	padding: 20px;
+	background-color: #00FF00;
+}
+
+.cabecalho h3 {
+	color: #FFFFFF;
+	font-size: 27px;
 }
 
 .formulario-corpo {
@@ -13,7 +25,10 @@ body {
 	position: relative;
 	top: -62px;
 	padding: 20px;
+	border: 2px solid #7CFC00;
+	border-radius: 5px;
 }
+
 
 .entrada {
 	display: block;
@@ -23,5 +38,9 @@ body {
 	border-top: none;
 	width: 60%;
 	padding: 10px 20px;
-	background-color: #FFFFF0;
+	border-radius: 5px;
+}
+
+.caixa-passatempo {
+	display: inline-block;
 }

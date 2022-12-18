@@ -11,36 +11,27 @@
 				<h3>Conte-nos sobre você!</h3>
 			</div>
 			<div class="formulario-caixa">
-				<div class="formulario-cabecalho">
-					Envio
-				</div>
 				<div class="formulario-corpo">
 					<h1 class="formulario-titulo">Fale sobre você</h1>
 					<p>Nos conte sobre a sua personalidade, passatempos que possui, seus gostos musicais, afazeres e afins. Tudo sobre você.</p>
 					<form>
 						<div class="caixa-entrada">
-							<label for="nome">Nome:
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="nome">Nome:</label>
 							<input type="text" name="nome" id="nome" class="entrada" placeholder="Digite seu nome" required>
 						</div>
 
 						<div class="caixa-entrada">
-							<label for="sobrenome">Sobrenome:
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="sobrenome">Sobrenome:</label>
 							<input type="text" name="sobrenome" id="sobrenome" class="entrada" placeholder="Digite seu sobrenome" required>
 						</div>
 
 						<div class="caixa-entrada">
-							<label for="sobrenome">Nascimento:
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="sobrenome">Nascimento:</label>
 							<input type="date" name="nascimento" id="nascimento" class="entrada" required>
 						</div>
 
 						<div class="caixa-entrada">
-							<p>Gênero: <span class="campo-obrigatorio">*</span></p>
+							<p>Gênero:</p>
 							<input type="radio" name="genero" id="masculino">
 							<label for="masculino">Masculino</label>
 							<input type="radio" name="genero" id="femino">
@@ -50,9 +41,19 @@
 						</div>
 
 						<div class="caixa-entrada">
-							<label for="esta-empregado">Esta empregado? 
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="status-civil">Status Civil</label>
+							<select id="status-civil" name="status-civil" required>
+								<option value="">Selecione</option>
+								<option value="solteiro">Solteiro</option>
+								<option value="casado">Casado</option>
+								<option value="separado">Separado</option>
+								<option value="divorciado">Divorciado</option>
+								<option value="viuvo">Viúvo</option>
+							</select>
+						</div>
+
+						<div class="caixa-entrada">
+							<label for="esta-empregado">Esta empregado?</label>
 							<select id="esta-empregado" name="esta-empregado" required>
 								<option value="">Selecione</option>
 								<option value="1">Sim</option>
@@ -61,9 +62,7 @@
 						</div>
 
 						<div class="caixa-entrada">
-							<label for="ocupacao">Ocupação: 
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="ocupacao">Ocupação:</label>
 							<input type="text" name="ocupacao" id="ocupacao" class="entrada" placeholder="Digite a sua ocupação">
 						</div>
 
@@ -127,9 +126,7 @@
 						</div>
 
 						<div class="caixa-entrada">
-							<label for="sobre-voce">Descrição: 
-								<span class="campo-obrigatorio">*</span>
-							</label>
+							<label for="sobre-voce">Descrição: </label>
 							<textarea id="sobre-voce" name="sobre-voce" class="entrada" required placeholder="Fale mais sobre você"></textarea>
 						</div>
 
