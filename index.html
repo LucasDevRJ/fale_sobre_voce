@@ -50,8 +50,24 @@
 						</div>
 
 						<div class="caixa-entrada">
-							<p>Passatempos: <span class="campo-obrigatorio">*</span></p>
-							<ul>
+							<label for="esta-empregado">Esta empregado? 
+								<span class="campo-obrigatorio">*</span>
+							</label>
+							<select id="esta-empregado" name="esta-empregado" required>
+								<option value="">Selecione</option>
+								<option value="1">Sim</option>
+								<option value="0">Não</option>
+							</select>
+						</div>
+
+						<div class="caixa-entrada">
+							<label for="ocupacao">Ocupação:</label>
+							<input type="text" name="ocupacao" id="ocupacao" class="entrada" placeholder="Digite a sua ocupação">
+						</div>
+
+						<div class="caixa-passatempo">
+							<p>Passatempos: </p>
+							<ul class="lista-passatempos">
 								<li>
 									<input type="checkbox" id="redes_sociais" name="passatempos[]" value="redes_sociais">
 									<label for="redes_sociais">Redes Sociais</label>
@@ -75,6 +91,35 @@
 								<li>
 									<input type="checkbox" id="atividades_fisicas" name="passatempos[]" value="atividades_fisicas">
 									<label for="atividades_fisicas">Atividades Físicas</label>
+								</li>
+							</ul>
+						</div>
+
+						<div class="caixa-passatempo">
+							<ul class="lista-passatempos">
+								<li>
+									<input type="checkbox" id="passeios" name="passatempos[]" value="passeios">
+									<label for="passeios">Passeios</label>
+								</li>
+
+								<li>
+									<input type="checkbox" id="estudos" name="passatempos[]" value="estudos">
+									<label for="estudos">Estudos</label>
+								</li>
+
+								<li>
+									<input type="checkbox" id="compras" name="passatempos[]" value="compras">
+									<label for="compras">Compras</label>
+								</li>
+
+								<li>
+									<input type="checkbox" id="app_relacionamentos" name="passatempos[]" value="app_relacionamentos">
+									<label for="app_relacionamentos">App de Relacionamentos</label>
+								</li>
+
+								<li>
+									<input type="checkbox" id="outros" name="passatempos[]" value="outros">
+									<label for="outros">Outros</label>
 								</li>
 							</ul>
 						</div>
