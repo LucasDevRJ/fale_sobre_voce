@@ -6,10 +6,22 @@ body {
 }
 
 .formulario-corpo {
-	background-color: #FFFAFA;
+	background-color: #FFFFFF;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	top: -62px;
+	padding: 20px;
+}
+
+.entrada {
+	display: block;
+	border-bottom: 2px solid #7CFC00;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 60%;
+	padding: 10px 20px;
+	background-color: #FFFFF0;
 }
