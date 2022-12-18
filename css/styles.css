@@ -29,6 +29,10 @@ body {
 	border-radius: 5px;
 }
 
+.caixa-entrada {
+	margin-bottom: 30px;
+}
+
 
 .entrada {
 	display: block;
@@ -39,8 +43,24 @@ body {
 	width: 60%;
 	padding: 10px 20px;
 	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.caixa-selecao {
+	width: 65%;
+	padding: 10px 20px;
+	display: block;
+	margin-top: 15px;
+	border-bottom: 2px solid #7CFC00;
+	border-left: none;
+	border-right: none;
+	border-top: none;
 }
 
 .caixa-passatempo {
 	display: inline-block;
+}
+
+.lista-passatempos  {
+	list-style-type: none;
 }
