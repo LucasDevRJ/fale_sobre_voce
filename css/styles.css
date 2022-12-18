@@ -64,3 +64,20 @@ body {
 .lista-passatempos  {
 	list-style-type: none;
 }
+
+.botao {
+	width: 30%;
+	padding: 15px 25px;
+	background-color: #00FF00;
+	border: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.botao:hover {
+	background-color: #FFFFFF;
+	color: #00FF00;
+	border: 1px solid #00FF00;
+}
